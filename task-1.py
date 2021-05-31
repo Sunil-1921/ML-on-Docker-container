@@ -17,12 +17,12 @@ print("_________________________________________LinearRegression Model in Docker
 
 while True:
     # predict salary
-    year = float(input("Enter year of experience :- "))
-    predict = model.predict([[year]])
+    years = float(input("Enter year of experience :- "))
+    predict = model.predict([[years]])
     
     # change color of text in terminal
     os.system("tput setaf 3")
-    print("\nYou are having {} years of experience".format(year))
+    print("\nYou are having {} years of experience".format(years))
     
     # change color of text in terminal
     os.system("tput setaf 2")
