@@ -1,5 +1,4 @@
 # ML-on-Docker-container
-Run ML model on top of the Docker container
 
 Summer 2021 - Task 1
 Task Description :-
